@@ -17,10 +17,11 @@ Using command "make", the directory structure is as follows:
     ├── file_1.c
     ├── file_2.c
     └── main.c
-```
-4 directories, 10 files
 
+4 directories, 10 files
+```
 This command creates object files in "objs" directory and executable file in "bin" directory.
+
 
 
 Using command "make clean", the directory structure is as follows:
@@ -35,7 +36,7 @@ Using command "make clean", the directory structure is as follows:
     ├── file_1.c
     ├── file_2.c
     └── main.c
-```
-4 directories, 6 files
 
+4 directories, 6 files
+```
 This command deletes the object files from "objs" directory and executable file from "bin" directory.
