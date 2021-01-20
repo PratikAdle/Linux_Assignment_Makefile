@@ -1,6 +1,7 @@
 # Linux_Assignment_Makefile
 
 Using command "make", the directory structure is as follows:
+'''bash
 ├── bin
 │   └── output
 ├── inc
@@ -17,11 +18,12 @@ Using command "make", the directory structure is as follows:
     └── main.c
 
 4 directories, 10 files
-
+'''
 This command creates object files in "objs" directory and executable file in "bin" directory.
 
 
 Using command "make clean", the directory structure is as follows:
+'''bash
 ├── bin
 ├── inc
 │   ├── file_1.h
@@ -34,5 +36,5 @@ Using command "make clean", the directory structure is as follows:
     └── main.c
 
 4 directories, 6 files
-
+'''
 This command deletes the object files from "objs" directory and executable file from "bin" directory.
