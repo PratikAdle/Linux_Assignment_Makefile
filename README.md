@@ -1,8 +1,8 @@
 # Linux_Assignment_Makefile
 
 Using command "make", the directory structure is as follows:
-'''
-├── bin
+
+'''├── bin
 │   └── output
 ├── inc
 │   ├── file_1.h
@@ -15,8 +15,7 @@ Using command "make", the directory structure is as follows:
 └── src
     ├── file_1.c
     ├── file_2.c
-    └── main.c
-'''
+    └── main.c'''
 4 directories, 10 files
 
 This command creates object files in "objs" directory and executable file in "bin" directory.
