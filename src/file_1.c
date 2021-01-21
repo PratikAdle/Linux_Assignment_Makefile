@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "/home/pratik/Assignment/inc/file_1.h"
+#include "file_1.h"
 
 void file_1()
 {
