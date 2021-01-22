@@ -1,19 +1,25 @@
 OUT = bin/output
+
 CC = gcc
+
 ODIR = objs
 SDIR = src
 INC = inc
+BIN = bin
 LIB = lib
+_LIB = lib_file_2.a
 
-_LIB = -l_file_2
+
 CFLAGS = -I$(INC)
 
-_OBJS = main.o file_1.o file_2.o 
+_OBJS = main.o file_1.o  
 OBJS = $(patsubst %,$(ODIR)/%,$(_OBJS))
 
+$(OUT) : $(OBJS) $(LIB)/$(_LIB)
+	$(CC) -o $@ $^
 
 $(ODIR)/%.o: $(SDIR)/%.c 
-	$(CC) $(CFLAGS) $(_LIB) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(OUT): $(OBJS) 
 	$(CC) -o $@ $^
