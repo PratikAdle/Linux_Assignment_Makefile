@@ -17,8 +17,7 @@ $ ar -rc lib_file_2.a file_2.o // produces static library file
 ```
 - Create a Makefile to compile the main file in such a way that:
   1) Object files are placed in "objs" directory and executable in "bin" directory when we use "make" command and
-  2) All the object files and executable are deleted when we use "make clean" command
--  
+  2) All the object files and executable are deleted when we use "make clean" command 
 
 ### Makefile:
 ```
